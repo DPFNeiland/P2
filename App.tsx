@@ -6,10 +6,11 @@ import Atividade4 from "./Atividades/Atividade4/Atividade4";
 import Atividade5 from "./Atividades/Atividade5/Atividade5";
 import Atividade6 from "./Atividades/Atividade6/Atividade6";
 import Atividade7 from "./Atividades/Atividade7/Atividade7";
+import NavegacaoStack from "./Atividades/AtividadeStack/NavegacaoStack";
 
 
 export default function App() {
   return (
-    <Atividade7 />
+    <NavegacaoStack />
   );
 }
