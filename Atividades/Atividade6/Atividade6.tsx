@@ -6,8 +6,14 @@ const Atividade6 = () => {
 
     const [num, setNum] = useState(0);
     const handleDiminuir = () => {
-        setNum(num - 1);
+               
+        if(num == 0){
+            setNum(0);
+        } else {
+            setNum(num - 1);
+        }
     };
+
     const handleAumentar = () => {
         setNum(num + 1);
     }

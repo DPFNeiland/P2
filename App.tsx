@@ -11,6 +11,6 @@ import NavegacaoStack from "./Atividades/AtividadeStack/NavegacaoStack";
 
 export default function App() {
   return (
-    <NavegacaoStack />
+    <Atividade7/>
   );
 }
